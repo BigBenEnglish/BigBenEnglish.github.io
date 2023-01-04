@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Store</title>
+</head>
+<script>
+function iOS() {
+  return [
+    'iPad Simulator',
+    'iPhone Simulator',
+    'iPod Simulator',
+    'iPad',
+    'iPhone',
+    'iPod'
+  ].includes(navigator.platform)
+  // iPad on iOS 13 detection
+  || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+}
+
+function redirect() {
+    if (iOS()) {
+        window.location.replace("https://apps.apple.com/app/id1630300246");
+    } else {
+        window.location.replace("https://apps.apple.com/app/id1630300246");
+    }
+}
+</script>
+<body onload="redirect()">
+</body>
+
+</html>
