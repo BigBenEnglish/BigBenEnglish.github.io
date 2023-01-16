@@ -1,0 +1,125 @@
+{
+  "id" : 1,
+  "name" : "Colors",
+  "words" : [
+    {
+      "name" : "black",
+      "audio" : "Colors\/Sound\/black.mp3",
+      "images" : [
+        "Colors\/Image\/black_0.webp",
+        "Colors\/Image\/black_1.webp"
+      ]
+    },
+    {
+      "name" : "blue",
+      "audio" : "Colors\/Sound\/blue.mp3",
+      "images" : [
+        "Colors\/Image\/blue_0.webp",
+        "Colors\/Image\/blue_1.webp"
+      ]
+    },
+    {
+      "name" : "brown",
+      "audio" : "Colors\/Sound\/brown.mp3",
+      "images" : [
+        "Colors\/Image\/brown_0.webp",
+        "Colors\/Image\/brown_1.webp"
+      ]
+    },
+    {
+      "name" : "fuchsia",
+      "audio" : "Colors\/Sound\/fuchsia.mp3",
+      "images" : [
+        "Colors\/Image\/fuchsia_1.webp"
+      ]
+    },
+    {
+      "name" : "golden",
+      "audio" : "Colors\/Sound\/golden.mp3",
+      "images" : [
+        "Colors\/Image\/golden_0.webp",
+        "Colors\/Image\/golden_1.webp"
+      ]
+    },
+    {
+      "name" : "gray",
+      "audio" : "Colors\/Sound\/gray.mp3",
+      "images" : [
+        "Colors\/Image\/gray_0.webp",
+        "Colors\/Image\/gray_1.webp"
+      ]
+    },
+    {
+      "name" : "green",
+      "audio" : "Colors\/Sound\/green.mp3",
+      "images" : [
+        "Colors\/Image\/green_0.webp",
+        "Colors\/Image\/green_1.webp",
+        "Colors\/Image\/green_2.webp"
+      ]
+    },
+    {
+      "name" : "orange",
+      "audio" : "Colors\/Sound\/orange.mp3",
+      "images" : [
+        "Colors\/Image\/orange_0.webp",
+        "Colors\/Image\/orange_1.webp",
+        "Colors\/Image\/orange_2.webp",
+        "Colors\/Image\/orange_3.webp",
+        "Colors\/Image\/orange_4.webp",
+        "Colors\/Image\/orange_5.webp"
+      ]
+    },
+    {
+      "name" : "pink",
+      "audio" : "Colors\/Sound\/pink.mp3",
+      "images" : [
+        "Colors\/Image\/pink_0.webp",
+        "Colors\/Image\/pink_1.webp"
+      ]
+    },
+    {
+      "name" : "purple",
+      "audio" : "Colors\/Sound\/purple.mp3",
+      "images" : [
+        "Colors\/Image\/purple_0.webp",
+        "Colors\/Image\/purple_1.webp",
+        "Colors\/Image\/purple_2.webp"
+      ]
+    },
+    {
+      "name" : "red",
+      "audio" : "Colors\/Sound\/red.mp3",
+      "images" : [
+        "Colors\/Image\/red_0.webp",
+        "Colors\/Image\/red_1.webp"
+      ]
+    },
+    {
+      "name" : "silver",
+      "audio" : "Colors\/Sound\/silver.mp3",
+      "images" : [
+        "Colors\/Image\/silver_0.webp",
+        "Colors\/Image\/silver_1.webp"
+      ]
+    },
+    {
+      "name" : "white",
+      "audio" : "Colors\/Sound\/white.mp3",
+      "images" : [
+        "Colors\/Image\/white_0.webp",
+        "Colors\/Image\/white_1.webp",
+        "Colors\/Image\/white_2.webp"
+      ]
+    },
+    {
+      "name" : "yellow",
+      "audio" : "Colors\/Sound\/yellow.mp3",
+      "images" : [
+        "Colors\/Image\/yellow_0.webp",
+        "Colors\/Image\/yellow_1.webp",
+        "Colors\/Image\/yellow_2.webp"
+      ]
+    }
+  ]
+}
