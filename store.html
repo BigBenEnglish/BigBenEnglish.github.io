@@ -4,24 +4,46 @@
 <title>Store</title>
 </head>
 <script>
-function iOS() {
-  return [
-    'iPad Simulator',
-    'iPhone Simulator',
-    'iPod Simulator',
-    'iPad',
-    'iPhone',
-    'iPod'
-  ].includes(navigator.platform)
-  // iPad on iOS 13 detection
-  || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+
+function getMobileOperatingSystem() {
+    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+    // Windows Phone must come first because its UA also contains "Android"
+    if (/windows phone/i.test(userAgent)) {
+        return "Windows Phone";
+    }
+
+    if (/android/i.test(userAgent)) {
+        return "Android";
+    }
+
+    // iOS detection from: http://stackoverflow.com/a/9039885/177710
+    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        return "iOS";
+    }
+
+    return "unknown";
 }
 
+
+// var isDesktop = !navigator.userAgent.match(/(iPad|iPhone|iPod|Android|webOS|BlackBerry|IEMobile|Opera Mini)/i);
+
 function redirect() {
-    if (iOS()) {
-        window.location.href = "itms-apps://itunes.apple.com/app/id1630300246";
+    var os = getMobileOperatingSystem();
+    if (os == "Android") {
+        try {
+            window.location.href = "itms-apps://itunes.apple.com/app/id1630300246";
+        } catch (e) {
+            window.alert("This app is not compatible with your device or operating system.");
+        }
+    } else if (os == "iOS") {
+        try {
+            window.location.href = "market://details?id=com.nail.bigben";
+        } catch (e) {
+            window.alert("This app is not compatible with your device or operating system.");
+        }
     } else {
-        window.location.href = "market://details?id=com.nail.bigben";
+        window.alert("This app is not compatible with your device or operating system.");
     }
 }
 </script>
