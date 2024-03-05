@@ -3,93 +3,93 @@
 <head>
 <meta charset="utf-8">
 <title>Privacy Policy</title>
-    <style>
-        html {
-            color: #D8D8D8;
-            margin: 0;
-            display: flex;
-            font-family: 'Roboto', -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-        }
+<style>
+    html {
+        color: #333; /* Dark grey text for better readability */
+        background-color: #F5F5F5; /* Light grey background */
+        font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
 
-        body {
-            background-color: #2E3846;
-            flex: 1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
+    body {
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 
-        a {
-            color: #ADD8E6;
-        }
+    a {
+        color: #1E90FF; /* A vivid blue color for links */
+        text-decoration: none; /* No underline for a clean look */
+    }
+    a:hover {
+        text-decoration: underline; /* Underline on hover for clarity */
+    }
 
-        header {
-            flex: 1;
+    .content {
+        max-width: 800px;
+        background-color: white; /* White content background */
+        padding: 40px;
+        border-radius: 8px; /* Slightly rounded corners for the content box */
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    }
+
+    h1, h2 {
+        color: #1A237E; /* Dark blue headings for emphasis */
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 0.5em;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 1.6; /* Improved line-height for readability */
+    }
+
+    li {
+        line-height: 1.6;
+    }
+
+    .nameText {
+        color: #1E90FF; /* Using the same blue for consistency */
+        font-weight: bold;
+    }
+
+    .effectiveDate {
+        font-size: 0.9rem;
+        color: #777; /* Lighter text for less emphasis */
+        margin-top: 2em;
+    }
+
+    /* Responsive Design */
+    @media only screen and (max-width: 800px) {
+        .content {
             width: 100%;
+            padding: 20px;
         }
 
-        .effectiveDate {
-            font-weight: 200;
-            margin-top: 60px;
-        }
-
-        .content {
-            max-width: 800px;
-            margin-top: 40px;
-            margin-bottom: 40px;
-            margin-left: 40px;
-            margin-right: 40px;
-        }
-        
         h1 {
-            font-size: 2.5rem;
-            font-weight: normal;
+            font-size: 1.5rem;
         }
 
         h2 {
-            font-size: 2rem;
-            font-weight: normal;
-            margin: 3rem 0 0 0;
+            font-size: 1.25rem;
         }
 
-        p {
-            font-size: 1.6rem;
+        p, .effectiveDate {
+            font-size: 0.9rem;
         }
-
-        li {
-            font-weight: 300;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-
-        .nameText {
-            font-weight: 500;
-            color: #FFFFFF;
-        }
-
-@media only screen and (max-width: 800px) {
-        .content {
-            max-width: 100%;
-            margin-left: 5px;
-            margin-right: 5px;
-        }
-        
-        h1 {
-            font-size: 4rem;
-        }
-
-        h2 {
-            font-size: 3rem;
-        }
-
-        p {
-            font-size: 2rem;
-        }
-}
-
-
-    </style>
+    }
+</style>
 </head>
 <body>
     <div class="content">
@@ -97,62 +97,50 @@
         
         <h2>Introduction</h2>
 
-        <p>Welcome to <span class="nameText">Big Ben English</span>! This privacy policy is intended to inform you about the personal data that is collected when you use our mobile application, as well as how that data is used.</p>
-        <p>At Big Ben English, we take your privacy seriously. Our app itself does not collect any personal data.
-        <p>Please read this privacy policy carefully to understand our practices and how we protect your personal data. By using our app, you agree to the collection and use of your personal data in accordance with this policy. If you have any questions or concerns, please contact us using the information provided at the end of this policy.</p>
-        
-        <h2>Information Collection</h2>
+        <p>Welcome to <span class="nameText">Big Ben English</span>! This privacy policy is intended to inform you about how we handle any information related to your use of our mobile application. It's important to note that our app is designed not to collect, use, or share any personal data.</p>
 
-        <p>We do not collect any data at all</p>
+        <h2>Information Collection and Use</h2>
 
-        <h2>Use of Information</h2>
+        <p>Our app, <span class="nameText">Big Ben English</span>, does not collect any personal data from its users. The app uses the following dependencies that may interact with your device:</p>
+        <ul>
+            <li><strong>path_provider:</strong> To find commonly used locations on the filesystem for storing app-related data.</li>
+            <li><strong>shared_preferences:</strong> To store simple data persistently across app launches.</li>
+            <li><strong>share_plus:</strong> To enable users to share a link to the app with others. No personal data is accessed or collected in the process of sharing the app link.</li>
+            <li><strong>audioplayers:</strong> To play audio content within the app.</li>
+            <li><strong>rive:</strong> To display interactive animations.</li>
+            <li><strong>package_info_plus:</strong> To obtain package information, specifically the app version, for display in the app's settings.</li>
+            <li><strong>url_launcher:</strong> To open web URLs in a web browser.</li>
+            <li><strong>in_app_purchase:</strong> To handle in-app purchases.</li>
+        </ul>
+        <p>No personal data is collected, used, or shared by the app itself or through the dependencies listed above.</p>
 
-        <p>We are not use any information at our app</p>
+        <h2>Data Retention</h2>
 
-        <p>We take the protection of our users' data very seriously and that why we do not collecting any data at all. We do not sell or rent any user data to third parties. If we need to use your data for a purpose not listed in this privacy policy, we will obtain your explicit consent beforehand.</p>
+        <p>Since our app does not collect personal data, there is no retention of such data.</p>
 
-        <h2>Data Retention:</h2>
+        <h2>Data Security</h2>
 
-        <p>We are not retain any information at our app for any purpose.</p>
+        <p>We are committed to ensuring that our app remains secure. Despite our app not collecting personal data, we take precautions to protect the integrity of the app and its interactions with your device.</p>
 
-        <p>We take the protection of our users' data very seriously and that why we do not collecting any data at all. We do not sell or rent any user data to third parties. If we need to use your data for a purpose not listed in this privacy policy, we will obtain your explicit consent beforehand.</p>
+        <h2>User Rights</h2>
 
-        <h2>Data Security:</h2>
+        <p>As our app does not collect personal data, users do not have data within the app that would necessitate user rights related to viewing, modifying, or deleting personal data.</p>
 
-        <p>We understand the importance of data security, and we take the responsibility of handling our users' data very seriously. Our app does not store any user data on our own servers.</p>
+        <h2>Cookies and Tracking</h2>
 
-        <p>Please note that we take every precaution to ensure the security of your data, no method of transmission or storage over the internet are not using in our app.</p>
-        <p>If you have any concerns about the security of your data or believe that your data has been compromised, please contact us immediately using the contact information provided in this privacy policy.</p>
-        
-        <h2>User Rights:</h2>
+        <p>Our app does not track users through cookies or any other tracking technologies.</p>
 
-        <p>We believe that our users have the right to control their own data. With our app, you can be calm for the safety of your personal data..</p>
-        <p>If you have any questions or concerns about your user rights or data privacy, please contact us using the contact information provided in this privacy policy.</p>
+        <h2>Children's Privacy</h2>
 
-
-        <h2>Cookies and Tracking:</h2>
-
-        <p>Our app do not send any data to any servers at all.</p>
-        <p>You can control the use of cookies and tracking technologies through the settings on your device. Please refer to your device's instructions for more information on how to do this.</p>
-        <p>If you have any questions or concerns about our use of cookies and tracking technologies, please contact us using the contact information provided in this privacy policy.</p>
-
-
-        <h2>Children's Privacy:</h2>
-
-        <p>Our app do not collect any data at all.
-        We do not knowingly collect personal information from children under the age of 13. If we become aware that we have collected personal information from a child under the age of 13, we will take steps to delete that information as soon as possible.</p>
-        <p>If you are a parent or guardian and you believe that your child has provided us with personal information, please contact us immediately using the contact information provided in this privacy policy. We will take steps to remove that information and terminate any account that may have been created.</p>
-        <p>We encourage parents and guardians to monitor their children's online activities and to help enforce this policy by instructing their children never to provide personal information through our app without their permission.</p>
-        <p>If you have any questions or concerns about our collection of personal information from children, please contact us using the contact information provided in this privacy policy.</p>
+        <p>Our app is compliant with the Children's Online Privacy Protection Act (COPPA). We do not knowingly collect personal information from children under the age of 13, and our app is designed not to collect such information from any user.</p>
 
         <h2>Changes to This Privacy Policy</h2>
-        <p>We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. When we make changes, we will post the updated Privacy Policy on this page and update the "Effective Date." Your continued use of our app after the Effective Date constitutes your acceptance of the updated Privacy Policy.</p>
+        <p>We reserve the right to make changes to this Privacy Policy at any time. Such changes will be effective immediately upon posting to the app's Privacy Policy page.</p>
         
         <h2>Contact Us</h2>
         <p>If you have any questions or concerns about this Privacy Policy, please contact us at <span class="nameText">bigbenenglishgame@gmail.com</span></p>
 
-        <p class="effectiveDate">Effective Date: 02.14.2023</p>
-        
+        <p class="effectiveDate">Effective Date: 03.05.2024</p>
     </div>
 </body>
 </html>
