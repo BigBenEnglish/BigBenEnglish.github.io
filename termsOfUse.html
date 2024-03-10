@@ -6,10 +6,9 @@
 <style>
     html {
         color: #333;
-        background-color: #F5F5F5;
-        font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        background-color: white;
+        font-family: Arial, sans-serif;
     }
-
     body {
         margin: 0;
         padding: 20px;
@@ -18,7 +17,11 @@
         align-items: center;
         flex-direction: column;
     }
-
+    .content {
+        max-width: 800px;
+        width: 100%;
+        padding: 40px;
+    }
     a {
         color: #1E90FF;
         text-decoration: none;
@@ -26,64 +29,39 @@
     a:hover {
         text-decoration: underline;
     }
-
-    .content {
-        max-width: 800px;
-        width: 100%;
-        background-color: white;
-        padding: 40px;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        box-sizing: border-box;
-    }
-
-    h1, h2 {
+    h1, h2, h3 {
         color: #1A237E;
     }
-
     h1 {
         font-size: 2.5rem;
         margin-bottom: 0.5em;
     }
-
     h2 {
-        font-size: 2rem;
+        font-size: 1.8rem;
         margin-top: 1em;
-        margin-bottom: 0.5em;
+        margin-bottom: 0.6em;
     }
-
+    h3 {
+        font-size: 1.5rem;
+        margin-top: 0.9em;
+        margin-bottom: 0.6em;
+    }
     p {
         font-size: 1.25rem;
         line-height: 1.6;
     }
-
+    li {
+        font-size: 1.25rem;
+        line-height: 1.6;
+    }
     .nameText {
         color: #1E90FF;
         font-weight: bold;
     }
-
     .effectiveDate {
         font-size: 1rem;
         color: #777;
         margin-top: 2em;
-    }
-
-    @media only screen and (max-width: 800px) {
-        .content {
-            padding: 20px;
-        }
-
-        h1 {
-            font-size: 2rem;
-        }
-
-        h2 {
-            font-size: 1.5rem;
-        }
-
-        p, li, .effectiveDate {
-            font-size: 1rem;
-        }
     }
 </style>
 
@@ -95,7 +73,7 @@
 
 <h2>Introduction</h2>
 
-<p>Welcome to <span class="nameText">Big Ben English</span>, a mobile game developed by Nail Sharipov. By downloading and using the game, you agree to be bound by the following terms and conditions ("Terms of Use").</p>
+<p>Welcome to <a href="https://bigbenenglish.github.io/">Big Ben English</a>, a mobile game developed by Nail Sharipov. By downloading and using the game, you agree to be bound by the following terms and conditions ("Terms of Use").</p>
 
 <h2>User Conduct</h2>
 
@@ -128,6 +106,6 @@
 <h2>Contact Us</h2>
 
 <p>If you have any questions about these terms of use, please contact me at <span class="nameText">bigbenenglishgame@gmail.com</span> or at <a href="https://bigbenenglish.github.io/contacts.html">Big Ben English</a></p>
-    </div>
+</div>
 </body>
 </html>
